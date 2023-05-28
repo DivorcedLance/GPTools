@@ -28,17 +28,17 @@ def copy_text_in_chunks(filename, size):
     """
 
     # Lee el contenido del archivo de texto
-    texto = open(filename, 'r', encoding='utf-8').read()
+    text = open(filename, 'r', encoding='utf-8').read()
 
     # Divide el texto en fragmentos del tamaño especificado
-    conjuntos = []
-    for i in range(0, len(texto), size):
-        conjunto = texto[i: i+size]
-        conjuntos.append(conjunto)
+    chunks = []
+    for i in range(0, len(text), size):
+        chunk = text[i: i+size]
+        chunks.append(chunk)
 
     # Copia cada fragmento al portapapeles y espera una entrada del usuario para continuar
-    while conjuntos:
-        data = conjuntos.pop(0)
+    while chunks:
+        data = chunks.pop(0)
         pyperclip.copy(data)
         input("Presiona Enter para continuar...")
 
