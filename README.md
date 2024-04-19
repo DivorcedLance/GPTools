@@ -86,15 +86,3 @@ detectAndClickButton();
 5. ¡Eso es todo! El botón "Continue generating" se presionará automáticamente cuando aparezca.
 
 ¡Feliz interacción con ChatGPT!
-
-## Contribución
-
-Si tienes alguna idea o mejora, no dudes en abrir un pull request o issue. Tu contribución es bienvenida.
-
-## Licencia
-
-GPTools se lanza bajo la [MIT License](LICENSE).
-
-## Descargo de responsabilidad
-
-Este software se proporciona "tal cual", sin garantía de ningún tipo.
